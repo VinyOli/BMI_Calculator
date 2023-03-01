@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI test</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BMI calculator</h1>
+        <h3>Body Mass Index</h3>
+    </header>
+        <div class="info0">
+            <div class="info1">
+                <h2>BMI range</h2>
+                <br>
+                <ul class="list">
+                    <li>Less than 18,5 ➙ Thinness</li> 
+                    <li>Between 18,5 and 24,9 ➙ Normal</li>
+                    <li>Between 25,0 and 29,9 ➙ Overweight</li>
+                    <li>Between 30,0 and 39,9 ➙ Obrity</li>
+                    <li>Heigher than 40,0 ➙ Severe Obrity</li>
+                </ul>
+            </div>
+        </div>
+        <section class="square">
+            <form action="" method="get" class="form">
+                <!-- Here the 'placeholder' give a default "value" -->
+                <p>Weight <br><input type='number'id="weightI" placeholder="Ex.:80(kg)"></p>
+                <p>Height <br><input  type='number' id="heightI" placeholder="Ex.:1,80(meters)"></p>
+                <!-- It's important to set the button's 'type' as 'button' otherwise it will refresh the page-->
+                <button onclick="sent()" type="button">Sent</button>
+            </form>
+            <div class="resultDiv">
+                <p id="result" class="result">Your BMI is:</p>
+            </div>
+        </section>
+
+        <footer>Developed by <a href="http://www.instagram.com/viny.oli13/" 
+            target="_blank" rel="noopener noreferrer">@Viny.oli13</a></footer>
+    </main>
+
+    <script src="script.js"></script>

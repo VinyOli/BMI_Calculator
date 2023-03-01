@@ -1,0 +1,10 @@
+footer{
+    padding: 7em;
+}
+footer a{
+    text-decoration: none;
+    transition: .2s;
+}
+footer a:hover{
+    color: rgb(123, 31, 160);
+}
